@@ -8,6 +8,7 @@
       "name": "04-react-query",
       "version": "0.0.0",
       "dependencies": {
+        "vite": "^7.3.1",
         "@tanstack/react-query": "^5.90.21",
         "@tanstack/react-query-devtools": "^5.91.3",
         "axios": "^1.13.6",
@@ -38,7 +39,6 @@
       "dev": true,
       "license": "MIT",
       "dependencies": {
-        "vite": "^7.3.1",
         "@babel/helper-validator-identifier": "^7.28.5",
         "js-tokens": "^4.0.0",
         "picocolors": "^1.1.1"
