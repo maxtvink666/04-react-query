@@ -3,12 +3,17 @@
   "version": "0.0.0",
   "lockfileVersion": 3,
   "requires": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "packages": {
     "": {
       "name": "04-react-query",
       "version": "0.0.0",
       "dependencies": {
-        "vite": "^7.3.1",
         "@tanstack/react-query": "^5.90.21",
         "@tanstack/react-query-devtools": "^5.91.3",
         "axios": "^1.13.6",
@@ -23,6 +28,7 @@
         "@types/node": "^24.10.1",
         "@types/react": "^19.2.7",
         "@types/react-dom": "^19.2.3",
+        "vite": "^7.3.1",
         "@vitejs/plugin-react-swc": "^4.2.2",
         "eslint": "^9.39.1",
         "eslint-plugin-react-hooks": "^7.0.1",
