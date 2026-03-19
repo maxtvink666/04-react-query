@@ -29,7 +29,6 @@
         "globals": "^16.5.0",
         "typescript": "~5.9.3",
         "typescript-eslint": "^8.48.0",
-        "vite": "^7.3.1"
       }
     },
     "node_modules/@babel/code-frame": {
@@ -39,6 +38,7 @@
       "dev": true,
       "license": "MIT",
       "dependencies": {
+        "vite": "^7.3.1"
         "@babel/helper-validator-identifier": "^7.28.5",
         "js-tokens": "^4.0.0",
         "picocolors": "^1.1.1"
